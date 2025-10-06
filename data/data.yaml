@@ -1,0 +1,13 @@
+train: C:/Users/Ahmet Asaad Hammoud/Desktop/ai-project/data/train/images
+val:   C:/Users/Ahmet Asaad Hammoud/Desktop/ai-project/data/valid/images
+test:  C:/Users/Ahmet Asaad Hammoud/Desktop/ai-project/data/test/images
+
+nc: 2
+names: ['gun', 'knife']
+
+roboflow:
+  workspace: thesis-vfvpg
+  project: knives-n-guns-april
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thesis-vfvpg/knives-n-guns-april/dataset/1

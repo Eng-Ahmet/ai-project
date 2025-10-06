@@ -1,0 +1,23 @@
+camera:
+  # استعمل 0 لكاميرا اللابتوب أو ضع مسار فيديو لاختبار ملف
+  source: 0
+  width:  1280
+  height: 720
+detector:
+  model_path: "yolov8n.pt"   # لاحقاً استبدله بوزناتك المخصصة
+  imgsz: 640
+  conf: 0.35
+temporal:
+  confirm_frames: 3          # يلزم تكرار الاكتشاف خلال 3 من آخر 5 إطارات
+  window: 5
+evidence:
+  enable_face_blur: true
+  clip_pre_seconds: 3
+  clip_post_seconds: 2
+  encrypt: false             # فعلها لاحقاً بعد التأكد
+paths:
+  alerts_dir: "./alerts"
+  logs_dir:   "./logs"
+rules:
+  enable_weapon_rule: true   # مكان تفعيل القواعد لاحقاً
+  enable_violence_rule: false

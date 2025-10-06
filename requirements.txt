@@ -1,0 +1,54 @@
+# === VisionGuard Core AI & Utilities ===
+
+# مكتبة YOLOv8 من Ultralytics — للكشف عن الأشياء (أسلحة، أقنعة، أشخاص)
+ultralytics==8.3.0
+
+# OpenCV — لمعالجة الفيديوهات والصور (القراءة من الكاميرا، الرسم، الحفظ، إلخ)
+opencv-python==4.10.0.84
+
+# MediaPipe — لاستخراج الوجوه والمفاصل (للتشويش ولتمييز الأفعال)
+mediapipe==0.10.14
+
+# Torch وTorchVision — الأساس لتشغيل نماذج الذكاء الاصطناعي (YOLO + الشبكات العصبية)
+torch==2.3.1
+torchvision==0.18.1
+
+# DeepSort — لتتبع الأجسام عبر الإطارات (تعريف مؤقت بدون هوية)
+deep-sort-realtime==1.3.2
+
+# Cryptography — لتشفير الأدلة (الصور والفيديوهات)
+cryptography==42.0.5
+
+# NumPy — العمليات العددية الأساسية (المصفوفات، المتوسطات، إلخ)
+numpy==1.26.4
+
+# Pillow — لمعالجة الصور (فتح، حفظ، قص، تحويل صيغة)
+Pillow==10.4.0
+
+# === Web API & Dashboard (لاحقاً) ===
+
+# FastAPI — لإنشاء واجهة REST API للتنبيهات ولوحة المراقبة
+fastapi==0.111.0
+
+# Uvicorn — لتشغيل FastAPI كخادم محلي
+uvicorn==0.30.1
+
+# SQLAlchemy — لإدارة قاعدة البيانات (تنبيهات، سجلات)
+SQLAlchemy==2.0.31
+
+# boto3 — للتعامل مع تخزين الكائنات (S3/MinIO) لحفظ الأدلة
+boto3==1.35.19
+
+# python-dotenv — لتحميل إعدادات البيئة من ملف .env
+python-dotenv==1.0.1
+
+# PyYAML — لتحميل ملفات التكوين (config.yaml, alert_rules.yaml)
+PyYAML==6.0.2
+
+# === أدوات مساعدة للتجارب والتنمية ===
+
+# tqdm — شريط تقدم للتدريب أو المعالجة الطويلة
+tqdm==4.66.4
+
+# requests — لإرسال إشعارات أو webhooks
+requests==2.32.3
